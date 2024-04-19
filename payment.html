@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="./logo.svg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+        body{
+            background: rgb(0, 0, 0);
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-weight: none;
+            font-size: 16px;
+        }
+        li{
+            background: white;
+            text-align: left;
+            color: #a09f9f;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #716f6f;;
+            margin-bottom: 30px;
+        }
+        h1{
+            margin-bottom: 50px;
+        }
+        header{
+            background: #000;
+        }
+        .container{
+            margin-left: 300px;
+            margin-right: auto;
+        }
+    </style>
+    <title>Payment</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+                <div class="header_line">
+                    <div class="header_logo">
+                        <img src="./images/logo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="header_links josefin-sans">
+                            <a href="./index.html">Home</a>
+                            <a href="">About</a>
+                            <a href="./payment.html">Payment</a>
+                            <a href="https://www.instagram.com/mode.kai_shop/">Contact</a>
+                    </div>
+                    
+                    <div class="header_language">
+                        <select id="language josefin-sans" >
+                            <option class="text-black" value="ru" selected="">RU</option>
+                            <option class="text-black" value="en">EN</option>
+                        </select>
+                    </div>
+                    <div class="show-bar">
+                        <button class="btn show" id="navbtn" style="margin-top: 10px;" >☰</button>
+    
+                            <div id="navbar" style="display: none;">
+                            <ul>
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li>
+                                    <a href="#">Payment</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="https://www.instagram.com/mode.kai_shop/">Contact</a></li>
+                            </ul>
+                    </dirv>
+                        </div>
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="payment">
+                <h1>Payment by card on the website</h1>
+                <p>You can pay for your order online with a Visa or MasterCard bank card. Payment by payment <br> cards is carried out in the following way:</p>
+                <ul>
+                    <li>when placing an order on the website, you will be prompted to choose a payment method.</li>
+                    <li>in the column "Payment" you need to select "Visa/MasterCard".</li>
+                    <li>after that, you will be redirected to the page of the bank's secure payment system, where you will need to confirm the payment.</li>
+                </ul>
+                <p><em>We do not work with postpaid.</em></p>
+                <h1>International delivery</h1>
+                <p style="color: black;"><b>Delivery abroad is carried out with the help of Ukrposhta and Nova Poshta, the cost of delivery <br> is also paid when placing an order.</b></p>
+                <p>In some cases, the purchase price may be paid separately, please pay attention to the relevant information when placing an order.</p>
+                <h1>The order processing period can be 10-20 days. After registration, you will be sent a letter to
+                    <br>e-mail with a tracking code for tracking (only applies to international shipments).</h1>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer josefin-sans">
+                    <h1>𝕸𝖔𝖉𝖊: 𝕶𝖆𝖎.</h1>
+                <div class="footer_links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Exchanges</a>
+                </div>
+                <div class="footer_contact josefin-sans">
+                    <a href="https://www.instagram.com/mode.kai_shop/"><img src="./images/socialmeadia/inst.png" alt=""></a>
+                    <a href="https://t.me/mode_kai"><img src="./images/socialmeadia/tg.png" alt=""></a>
+                    <a href="mailto: mode.kaistore@gmail.com"><img src="./images/socialmeadia/mail.png" alt=""></a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script>
+                var navbtn = document.getElementById('navbtn')
+                navbtn.addEventListener('click', function toggleNavbar() {
+                
+                var navbar = document.getElementById('navbar');
+                var mainContent = document.querySelector('.card1');
+                if (navbar.style.display === 'none') {
+                    navbar.style.display = 'block';
+                    mainContent.style.marginTop = '250px    ';
+                } else {
+                    navbar.style.display = 'none';
+                    mainContent.style.marginTop = '0';
+                }
+                } )
+                
+    </script>
+</body>
+</html>

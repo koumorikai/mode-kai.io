@@ -1,0 +1,340 @@
+nav{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+a:hover{
+    text-shadow: -1px -2px 9px rgba(94,22,22,1);
+}
+option{
+    width: 100px;
+    text-align: center;
+    background: #000;
+}
+header{
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+main{
+    background: white;
+}
+footer{
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+}
+.header_line{
+    height: 80px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.header_logo{
+    margin-left: auto;
+    margin-right: 70px;
+}
+.header_logo img{
+    width: 75px;
+    height: 75px;
+}
+.header_links{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.header_links a{
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header_links a:hover{
+    color: rgb(88, 22, 22);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header_language{
+    margin-right: auto;
+    margin-top: 45px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header_language select{
+    background-color: transparent;
+    color:  white;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+}
+.header_language select:hover{
+    color: rgb(88, 22, 22);
+}
+.header_language option{
+    color: #fff;
+}
+.header_language option:hover{
+    color: rgb(88, 22, 22);
+}
+.btn{
+    text-align: right;
+}
+.show{
+    display: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.show-bar button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: #000;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    cursor: pointer;
+}
+.show-bar li{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    list-style: none;
+    color: white;
+    background: #000;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+.show-bar li:hover{
+    background:rgb(88, 22, 22);
+    height: 70px;
+}
+.show-bar ul{
+    margin-right: -20px;
+    width: 400px;
+}
+.show-bar a{
+    text-decoration: none;
+    color: white;
+}
+.show-bar li:hover{
+    color:white;
+}
+.language-nav-bar{
+        margin-right: auto;
+    /* margin-top: 45px; */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.language-nav-bar select{
+    background-color: transparent;
+    color:  white;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+}
+.language-nav-bar option{
+    color: #fff;
+    padding-top: 15px;
+}
+.language-nav-bar li>option:hover{
+    color: rgb(88, 22, 22);
+}
+
+.language-nav-bar ul, li{
+    background: #000;
+    /* width: 400px; */
+    height: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+#nav{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.price-cards{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.price-cards{
+    margin-left: auto;
+    margin-right: auto;
+}
+.price-card{
+    cursor: pointer;
+    opacity: 1;
+    margin-bottom: 30px;
+    width: 240px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.price-card:hover{
+    color: rgb(88, 22, 22);
+    -webkit-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+    -moz-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+    box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+}
+.price-card img{
+    width: 240px;
+    height: 240px;
+}
+.price-card h1{
+    font-size: 16px;
+    font-weight: 800;   
+}
+.price-card p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+    color: #444242;
+    margin-right: 15px;
+}
+.footer{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.footer h1{
+    color: white;
+    cursor: pointer;
+}
+.footer_links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer_links a:hover{
+    color: rgb(88, 22, 22);
+}
+.footer_contact{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.footer_contact img{
+    padding-left: 15px;
+}
+
+.line{
+    width: 400px;
+    height: 1px;
+    background: rgb(88, 22, 22);
+    margin-top: 12px;
+}
+
+
+
+@media(min-width: 1200px){
+
+    .price-cards{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .card1{
+        margin-top: 0;
+    }
+}
+@media (max-width:992px) {
+    .header_links{
+        display: none;
+    }
+    .header_language{
+        display: none;
+    }
+    .show{
+        display: block;
+        color: white;
+    }
+    .header_logo{
+        margin-right: auto;
+    }
+    .price-cards{
+        margin-top: 30px;
+        padding-top: 200px;
+        display: grid;
+        padding-top: 50px;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .price-card{
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price-card:hover{
+        -webkit-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        -moz-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+    }
+}
+@media (max-width:768px) {
+    .price-card{
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price-card:hover{
+        -webkit-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        -moz-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+    }
+    .price-cards{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:620px) {
+    .price-cards{
+        margin-right: auto;
+    }
+    .price-card:hover{
+        -webkit-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        -moz-box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+        box-shadow: 2px 2px 68px 1px rgba(94,22,22,1);
+    }
+}
